@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Erasmus+ FP · IES Sant Vicent Ferrer d'Algemesí</title>
+  <meta name="description" content="Proyectos Erasmus+ de Formación Profesional del IES Sant Vicent Ferrer d'Algemesí.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#inicio">Erasmus+ <span>SVF</span></a>
+      <nav>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#ciclos">Ciclos</a>
+        <a href="#destinos">Destinos</a>
+        <a href="#como-participar">Participar</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container">
+        <h1>Proyectos de Formación Profesional en Europa</h1>
+        <p>IES Sant Vicent Ferrer · Algemesí (Valencia)</p>
+        <a class="btn" href="#proyectos">Ver proyectos</a>
+      </div>
+    </section>
+
+    <section id="proyectos" class="container section">
+      <h2>Nuestros proyectos</h2>
+      <p class="lead">Movilidades Erasmus+ para que el alumnado y el profesorado de FP realicen prácticas y se formen en empresas y centros europeos.</p>
+      <div class="grid" id="project-list">
+        <!-- Se rellena desde data/projects.json -->
+      </div>
+    </section>
+
+    <section id="ciclos" class="section alt">
+      <div class="container">
+        <h2>Ciclos formativos</h2>
+        <p class="lead">Edita la lista en <code>data/projects.json</code> o directamente aquí con los ciclos que participan.</p>
+        <ul class="chips">
+          <li>Ciclos de Grado Medio</li>
+          <li>Ciclos de Grado Superior</li>
+          <li>FP Básica</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="destinos" class="container section">
+      <h2>Destinos</h2>
+      <p class="lead">Países y empresas colaboradoras donde realizamos las estancias.</p>
+      <ul class="chips" id="destinations"></ul>
+    </section>
+
+    <section id="como-participar" class="section alt">
+      <div class="container">
+        <h2>Cómo participar</h2>
+        <ol class="steps">
+          <li><strong>Infórmate</strong> con el equipo de coordinación Erasmus+ del centro.</li>
+          <li><strong>Presenta tu solicitud</strong> dentro del plazo de la convocatoria.</li>
+          <li><strong>Selección</strong> según expediente, idioma y actitud.</li>
+          <li><strong>Preparación</strong>: idioma, documentación y acuerdo de aprendizaje.</li>
+          <li><strong>Movilidad</strong> de prácticas en empresa europea.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contacto" class="container section">
+      <h2>Contacto</h2>
+      <p>IES Sant Vicent Ferrer · Algemesí (Valencia)</p>
+      <p>Coordinación Erasmus+: <em>añadir correo de contacto</em></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> IES Sant Vicent Ferrer d'Algemesí · Proyectos Erasmus+ de FP</p>
+      <p class="small">Cofinanciado por la Unión Europea. Los puntos de vista expresados son responsabilidad exclusiva de sus autores.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

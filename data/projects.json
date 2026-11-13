@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "title": "Movilidad de alumnado FP (KA121)",
+      "period": "Por definir",
+      "type": "Prácticas en empresa europea",
+      "description": "Estancias de prácticas (FCT) de alumnado de ciclos formativos en empresas de países europeos. Ejemplo: sustituir por los datos reales."
+    },
+    {
+      "title": "Movilidad de personal docente",
+      "period": "Por definir",
+      "type": "Formación y observación (job shadowing)",
+      "description": "Estancias del profesorado en centros de FP y empresas europeas para intercambiar buenas prácticas. Ejemplo: sustituir por los datos reales."
+    },
+    {
+      "title": "Recién titulados",
+      "period": "Por definir",
+      "type": "Prácticas tras la titulación",
+      "description": "Posibilidad de realizar prácticas en Europa tras finalizar el ciclo. Ejemplo: sustituir por los datos reales."
+    }
+  ],
+  "destinations": ["Italia", "Portugal", "Irlanda", "Alemania", "Francia"]
+}

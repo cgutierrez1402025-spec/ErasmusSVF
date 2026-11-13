@@ -1,0 +1,26 @@
+:root { --blue: #003399; --yellow: #ffcc00; --bg: #f5f7fb; --text: #1b2333; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--text); line-height: 1.6; }
+.container { max-width: 1080px; margin: 0 auto; padding: 0 1.25rem; }
+.site-header { background: var(--blue); position: sticky; top: 0; z-index: 10; }
+.nav { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; padding-top: .75rem; padding-bottom: .75rem; }
+.brand { color: #fff; font-weight: 700; font-size: 1.25rem; text-decoration: none; }
+.brand span { color: var(--yellow); }
+nav a { color: #fff; margin-left: 1rem; text-decoration: none; }
+nav a:hover { color: var(--yellow); }
+.hero { background: linear-gradient(135deg, var(--blue), #1a56c9); color: #fff; text-align: center; padding: 5rem 0; }
+.hero h1 { font-size: clamp(1.8rem, 4vw, 3rem); margin: 0 0 .5rem; }
+.btn { display: inline-block; margin-top: 1rem; background: var(--yellow); color: #111; padding: .7rem 1.5rem; border-radius: 999px; font-weight: 600; text-decoration: none; }
+.section { padding: 3rem 1.25rem; }
+.section.alt { background: var(--bg); padding-left: 0; padding-right: 0; }
+h2 { color: var(--blue); margin-top: 0; }
+.lead { max-width: 720px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.25rem; margin-top: 1.5rem; }
+.card { border: 1px solid #dde3ef; border-top: 4px solid var(--yellow); border-radius: 8px; padding: 1.25rem; background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,.05); }
+.card h3 { margin: 0 0 .25rem; color: var(--blue); }
+.card .meta { font-size: .85rem; color: #5a6478; margin-bottom: .5rem; }
+.chips { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
+.chips li { background: #fff; border: 1px solid #dde3ef; padding: .35rem .9rem; border-radius: 999px; }
+.steps li { margin-bottom: .5rem; }
+.site-footer { background: #0b1b44; color: #d7def0; padding: 1.5rem 0; text-align: center; }
+.small { font-size: .8rem; opacity: .8; }
