@@ -1,0 +1,53 @@
+:root{--blue:#003399;--blue-d:#00246b;--yellow:#ffcc00;--red:#c8102e;--bg:#f5f7fb;--ink:#1b2333;--card:#fff;--line:#d9e0ee}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg)}
+a{color:var(--blue)}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:8px;z-index:99}
+header.top{position:sticky;top:0;background:var(--blue-d);z-index:10;box-shadow:0 2px 8px #0003}
+.nav{max-width:1100px;margin:auto;display:flex;align-items:center;gap:1rem;padding:.6rem 1rem;flex-wrap:wrap}
+.brand{color:#fff;font-weight:700;text-decoration:none;margin-right:auto}
+.brand span{color:var(--yellow)}
+.nav a.l{color:#fff;text-decoration:none;font-size:.92rem;padding:.2rem .4rem;border-radius:4px}
+.nav a.l:hover,.nav a.l:focus{background:#ffffff26}
+.hero{background:linear-gradient(135deg,var(--blue),var(--blue-d));color:#fff;padding:4rem 1rem 3rem;text-align:center}
+.hero h1{font-size:clamp(1.9rem,5vw,3rem);margin:.2rem 0}
+.hero p{max-width:760px;margin:1rem auto;font-size:1.15rem}
+.stars{color:var(--yellow);letter-spacing:.4rem;font-size:1.4rem}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;max-width:1000px;margin:2rem auto 0}
+.fact{background:#ffffff1f;border:1px solid #ffffff44;border-radius:12px;padding:1rem}
+.fact b{display:block;font-size:2rem;color:var(--yellow)}
+main{max-width:1100px;margin:auto;padding:1rem}
+section{padding:2.2rem 0}
+h2{color:var(--blue);font-size:1.9rem;border-bottom:4px solid var(--yellow);display:inline-block;padding-bottom:.2rem;margin:0 0 1rem}
+h3{margin:.2rem 0 .5rem;color:var(--blue-d)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:1.1rem;box-shadow:0 1px 3px #0001}
+.card ul{padding-left:1.2rem;margin:.3rem 0}
+.note{background:#fff8d6;border-left:5px solid var(--yellow);padding:.8rem 1rem;border-radius:6px;margin:1rem 0}
+.warn{background:#fdeaee;border-left-color:var(--red)}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:8px;overflow:hidden}
+th,td{padding:.6rem .8rem;border-bottom:1px solid var(--line);text-align:left}
+th{background:var(--blue);color:#fff}
+.tabs{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:.8rem}
+.tabs button,.btn{font:inherit;cursor:pointer;border:2px solid var(--blue);background:#fff;color:var(--blue);padding:.45rem .9rem;border-radius:8px;text-decoration:none;display:inline-block}
+.tabs button[aria-selected=true],.btn{background:var(--blue);color:#fff}
+.btn:hover{background:var(--blue-d)}
+.check li{list-style:none;margin:.3rem 0}
+.check label{cursor:pointer}
+.check input{width:1.1rem;height:1.1rem;margin-right:.5rem}
+progress{width:100%;height:14px}
+.calc{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem}
+.calc label{display:block;font-weight:600;margin-bottom:.2rem}
+select,input[type=number]{width:100%;font:inherit;padding:.4rem;border:1px solid var(--line);border-radius:6px}
+.score{font-size:2.4rem;font-weight:800;color:var(--blue);margin:.5rem 0 0}
+.sev{border-top:6px solid}.sev.m{border-color:#e0a800}.sev.g{border-color:#e8590c}.sev.v{border-color:var(--red)}
+details{background:#fff;border:1px solid var(--line);border-radius:8px;margin:.5rem 0;padding:.6rem 1rem}
+summary{cursor:pointer;font-weight:600}
+ol.steps{counter-reset:s;padding:0}
+ol.steps li{list-style:none;position:relative;padding:.6rem 0 .6rem 3.2rem;counter-increment:s}
+ol.steps li:before{content:counter(s);position:absolute;left:0;top:.4rem;width:2.3rem;height:2.3rem;border-radius:50%;background:var(--blue);color:#fff;text-align:center;line-height:2.3rem;font-weight:700}
+footer{background:var(--blue-d);color:#dfe6f7;padding:2rem 1rem;font-size:.92rem}
+footer .in{max-width:1100px;margin:auto}footer a{color:var(--yellow)}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
+@media print{header.top,.tabs{display:none}}

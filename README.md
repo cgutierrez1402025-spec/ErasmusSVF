@@ -1,9 +1,8 @@
 # ErasmusSVF
 
-Web sobre los proyectos Erasmus+ de Formación Profesional del IES Sant Vicent Ferrer d'Algemesí.
+Web divulgativa sobre el consorcio Erasmus+ KA121 VET del STEPV (curso 2026-27) para el alumnado de Grado Medio del IES Sant Vicent Ferrer d'Algemesí.
 
-Sitio estático (HTML, CSS, JS). Los proyectos y destinos se editan en `data/projects.json`
-(los datos actuales son de ejemplo).
+Sitio estático (HTML, CSS, JS), sin dependencias. No es un sitio oficial: prevalecen los documentos del STEPV/ESFMB.
 
 ## Ver en local
 
@@ -15,4 +14,4 @@ Abrir http://localhost:8000
 
 ## Publicación
 
-Se publica con GitHub Pages desde la rama `main` (raíz).
+GitHub Pages desde la rama `main` (raíz).
