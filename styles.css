@@ -51,3 +51,8 @@ footer{background:var(--blue-d);color:#dfe6f7;padding:2rem 1rem;font-size:.92rem
 footer .in{max-width:1100px;margin:auto}footer a{color:var(--yellow)}
 :focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
 @media print{header.top,.tabs{display:none}}
+.sr{position:absolute;left:-9999px}
+.card ol{padding-left:1.2rem}
+
+img{max-width:100%;height:auto;border-radius:8px}
+@media(max-width:700px){table{display:block;overflow-x:auto}}
